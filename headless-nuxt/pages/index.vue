@@ -131,6 +131,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    padding-bottom: 0px;
     img {
       width: 85%;
       height: auto;
@@ -141,6 +142,7 @@ body {
 }
 a,
 button {
+  white-space: nowrap;
   text-decoration: none;
   background-color: #fff;
   border-radius: 30px;

@@ -24,7 +24,9 @@
         v-if="project.content"
         v-html="$mdRenderer.render(project.content)"
       ></p>
-      <a :href="project.link" target="_blank">Lien vers le site</a>
+      <a v-if="project.link" :href="project.link" target="_blank"
+        >Lien vers le site</a
+      >
     </div>
     <div class="pagination-buttons">
       <nuxt-link
